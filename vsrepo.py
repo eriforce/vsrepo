@@ -156,15 +156,11 @@ file_dirname: str = os.path.dirname(os.path.abspath(__file__))
 if os.path.abspath(file_dirname).startswith(os.path.abspath(sys.prefix)):
     file_dirname = os.getcwd()
 
-if args.portable:
+is_portable = args.portable or is_sitepackage_install_portable()
+
+if is_portable:
     plugin32_path = os.path.join(file_dirname, 'vapoursynth32', 'plugins')
     plugin64_path = os.path.join(file_dirname, 'vapoursynth64', 'plugins')
-elif is_sitepackage_install_portable():
-    vapoursynth_path = detect_vapoursynth_installation()
-    base_path = os.path.dirname(vapoursynth_path)
-    plugin32_path = os.path.join(base_path, 'vapoursynth32', 'plugins')
-    plugin64_path = os.path.join(base_path, 'vapoursynth64', 'plugins')
-    del vapoursynth_path
 else:
     pluginparent = [str(os.getenv("APPDATA")), 'VapourSynth']
     plugin32_path = os.path.join(*pluginparent, 'plugins32')
@@ -174,7 +170,7 @@ if (args.operation in ['install', 'upgrade', 'uninstall']) and ((args.package is
     print('Package argument required for install, upgrade and uninstall operations')
     sys.exit(1)
 
-package_json_path = os.path.join(file_dirname, 'vspackages3.json') if args.portable else os.path.join(*pluginparent, 'vsrepo', 'vspackages3.json')
+package_json_path = os.path.join(file_dirname, 'vspackages3.json') if is_portable else os.path.join(*pluginparent, 'vsrepo', 'vspackages3.json')
 
 if args.force_dist_info or is_sitepackage_install():
     if is_venv():
@@ -190,7 +186,7 @@ if args.force_dist_info or is_sitepackage_install():
 else:
     site_package_dir = None
 
-py_script_path: str = file_dirname if args.portable else (site_package_dir if site_package_dir is not None else get_vs_installation_site())
+py_script_path: str = file_dirname if is_portable else (site_package_dir if site_package_dir is not None else get_vs_installation_site())
 if args.script_path is not None:
     py_script_path = args.script_path
 
