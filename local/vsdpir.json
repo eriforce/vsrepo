@@ -10,6 +10,22 @@
 	"api": 4,
 	"releases": [
 		{
+			"version": "3.0.1",
+			"published": "2023-03-12T07:15:53.863622Z",
+			"wheel": {
+				"url": "https://files.pythonhosted.org/packages/16/b2/7b430a53144a4f9be4a7294f4642c281db6f77640b326a4a6aff10177702/vsdpir-3.0.1-py3-none-any.whl",
+				"hash": "36fcab82ddaa3d0191858060d059e7f42727b7f54fcd6fc2fa427ad7dedc4002"
+			}
+		},
+		{
+			"version": "3.0.0",
+			"published": "2023-02-12T15:43:36.279255Z",
+			"wheel": {
+				"url": "https://files.pythonhosted.org/packages/ce/84/13a5f351b2f4ec4a8c1f2093bf0058d8927cf48d1b6093e8e860b70e33c0/vsdpir-3.0.0-py3-none-any.whl",
+				"hash": "af0dc9d7c1e609f6d67bdd0173fbdadbbf2748a247bdd36fbfdde5e3316b094b"
+			}
+		},
+		{
 			"version": "2.3.0",
 			"published": "2022-06-25T16:25:32.675756Z",
 			"wheel": {

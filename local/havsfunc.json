@@ -14,30 +14,45 @@
 		"opencl"
 	],
 	"dependencies": [
-		"mvsfunc",
 		"adjust",
-		"nnedi3_resample",
-		"xxx.abc.znedi3",
-		"com.holywu.nnedi3cl",
-		"com.nodame.mvtools",
+		"com.Khanattila.KNLMeansCL",
+		"com.holywu.addgrain",
+		"com.holywu.bwdif",
+		"com.holywu.cas",
+		"com.holywu.ctmf",
+		"com.holywu.dctfilter",
+		"com.holywu.deblock",
 		"com.holywu.dfttest",
 		"com.holywu.eedi2",
-		"fmtconv",
 		"com.holywu.eedi3",
-		"com.mio.sangnom",
-		"com.vapoursynth.misc",
-		"com.holywu.deblock",
-		"com.Khanattila.KNLMeansCL",
+		"com.holywu.nnedi3cl",
 		"com.holywu.ttempsmooth",
-		"com.holywu.ctmf",
-		"systems.innocent.fft3dfilter",
-		"com.holywu.addgrain",
-		"com.holywu.dctfilter",
-		"com.vapoursynth.hqdn3d",
+		"com.mio.sangnom",
+		"com.nodame.awarpsharp2",
 		"com.nodame.fluxsmooth",
-		"com.nodame.awarpsharp2"
+		"com.nodame.mvtools",
+		"com.vapoursynth.hqdn3d",
+		"com.vapoursynth.misc",
+		"com.vapoursynth.removegrainvs",
+		"mvsfunc",
+		"nnedi3_resample",
+		"systems.innocent.fft3dfilter",
+		"xxx.abc.znedi3"
 	],
 	"releases": [
+		{
+			"version": "git:7f0a9a7",
+			"published": "2022-10-23T03:08:47Z",
+			"script": {
+				"url": "https://api.github.com/repos/HomeOfVapourSynthEvolution/havsfunc/zipball/7f0a9a7a37b60a05b9f408024d203e511e544a61",
+				"files": {
+					"havsfunc.py": [
+						"HomeOfVapourSynthEvolution-havsfunc-7f0a9a7/havsfunc.py",
+						"229fc191c5e7447c867076a0a3e3b008b5b06d04dfa6517796aec949363d8bac"
+					]
+				}
+			}
+		},
 		{
 			"version": "git:ab1efb8",
 			"published": "2022-10-10T09:31:03Z",

@@ -9,6 +9,70 @@
 	"wheelname": "vskernels",
 	"releases": [
 		{
+			"version": "2.3.2",
+			"published": "2023-03-26T17:38:23.902799Z",
+			"wheel": {
+				"url": "https://files.pythonhosted.org/packages/a6/ee/1af52c026eacbfb05fefc5dc5c5bbdfcdee5e34909256ffb3a0f0df73f23/vskernels-2.3.2-py3-none-any.whl",
+				"hash": "7bb5e8bae5298ed30aa090bf35ac1e11acf590da9ef3d99cc41a1a1aba470e2b"
+			}
+		},
+		{
+			"version": "2.3.1",
+			"published": "2023-02-26T22:26:23.066361Z",
+			"wheel": {
+				"url": "https://files.pythonhosted.org/packages/2e/e8/045f48321e8b369fedf7585ce1d1a6d7ee2c0575d1f4680817e39ab3502c/vskernels-2.3.1-py3-none-any.whl",
+				"hash": "162e8dad55fbbf5714c0ad1bd3fa8dc1a6de4a07825bce6a7c21d70b7130bfff"
+			}
+		},
+		{
+			"version": "2.3.0",
+			"published": "2023-02-10T11:18:46.356060Z",
+			"wheel": {
+				"url": "https://files.pythonhosted.org/packages/ac/9f/54ac66748c4c1cd9bdf8c1a45d081841a882eddc9b387cd08045ac5c75f4/vskernels-2.3.0-py3-none-any.whl",
+				"hash": "0da1a9b15e69d4668e707cd81612b3e7365b3e069f2c47f88f3e552e1e64d318"
+			}
+		},
+		{
+			"version": "2.2.5",
+			"published": "2023-01-30T10:06:14.750680Z",
+			"wheel": {
+				"url": "https://files.pythonhosted.org/packages/5d/60/b93590f2cae04dde301a5e82c840f43f5641b964cfcb1bb639066e9e0b6f/vskernels-2.2.5-py3-none-any.whl",
+				"hash": "a22347668444b18c001991534da4c15c92e1934b4eb8b1a1972facbc6ab8c6cb"
+			}
+		},
+		{
+			"version": "2.2.4",
+			"published": "2023-01-04T09:28:07.286763Z",
+			"wheel": {
+				"url": "https://files.pythonhosted.org/packages/54/be/3036f38547fbabc25e90e602783b92b42b79f448d3171cce9d728b1c97e7/vskernels-2.2.4-py3-none-any.whl",
+				"hash": "54409914bd73b8b2e5262e9617826e5d5f03c4b058fd7fdb59bcdf6a2c0786f7"
+			}
+		},
+		{
+			"version": "2.2.3",
+			"published": "2022-12-12T20:47:11.112390Z",
+			"wheel": {
+				"url": "https://files.pythonhosted.org/packages/e1/fd/c68e5bd2230b9e0bd0e500ade779d8922e82a211683164d5c891dec2ca47/vskernels-2.2.3-py3-none-any.whl",
+				"hash": "a75be12fcc19bcf5d72271c42c3140270c35caa4c4b26161dfe09ef12a208490"
+			}
+		},
+		{
+			"version": "2.2.2",
+			"published": "2022-12-04T01:26:39.877375Z",
+			"wheel": {
+				"url": "https://files.pythonhosted.org/packages/e2/4e/7a58fef1da0e3199d4cf0f6fa1481afbcdf8dbecdefd7bbdacf40c3d9d31/vskernels-2.2.2-py3-none-any.whl",
+				"hash": "36e6681fb21834ca4273be13ce43443815a9935248acd2ef86621b2065181155"
+			}
+		},
+		{
+			"version": "2.2.1",
+			"published": "2022-11-12T10:46:25.631949Z",
+			"wheel": {
+				"url": "https://files.pythonhosted.org/packages/77/7d/b18ca4ceba856703a5b7337ae80c62d6bc2653254ca6006967231eea7b9b/vskernels-2.2.1-py3-none-any.whl",
+				"hash": "6cfce6d4d58a3bb288748e4ff75a4fd3e89df908bedca3e63cccae0434eeeb01"
+			}
+		},
+		{
 			"version": "2.2.0",
 			"published": "2022-10-18T17:39:44.862149Z",
 			"wheel": {
